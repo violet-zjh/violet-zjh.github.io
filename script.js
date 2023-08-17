@@ -23,9 +23,9 @@ var ball = {
     x : canvas.width / 2,
     y : canvas.height / 2,
     r : 10,
-    xspeed:3,
-    yspeed:-3,
-    speed:3,
+    xspeed:10,
+    yspeed:-10,
+    speed:10,
     visible:true
 };
 
@@ -35,7 +35,7 @@ var paddle = {
     y : canvas.height - 20,
     w : 80,
     h : 10,
-    speed: 8,
+    speed: 11,
     dx : 0,
     visible: true
 };
